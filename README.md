@@ -1,1 +1,1 @@
-# Trainer-Timetable-App
+# Trainer Timetable App
