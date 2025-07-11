@@ -23,8 +23,10 @@
     *   JavaScript
 *   **Database:** MySQL
 *   **Server Environment:** Apache (via XAMPP)
-*   **Frameworks/Libraries:** (If any, e.g., jQuery, Bootstrap, specific PHP frameworks)
-    *   [List any specific frameworks or libraries used, e.g., Bootstrap for UI, jQuery for interactivity]
+*   **Tools & Technologies:**
+    *   VS Code
+    *   phpMyAdmin
+    *   Git
 
 ## 4. Project Description
 
@@ -108,6 +110,7 @@ To set up and run the Trainer Timetable App locally, follow these steps:
     *   **Logout:** Click the "Logout" button to exit the admin dashboard.
 
 4.  **Screenshot:**
+
    *   **Sign In And Sign Up:**
 1.  **Sign in:**
 ![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/login1.jpg)
@@ -123,6 +126,7 @@ To set up and run the Trainer Timetable App locally, follow these steps:
 ![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/02ed8f151097b4ec15fe9e6c6bda413b6a8cb27d/Screenshot/trainer3.jpg)
 4.  **Session Status:**
 ![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/02ed8f151097b4ec15fe9e6c6bda413b6a8cb27d/Screenshot/trainer4.jpg)
+
    *   **Admin Dashboard:**
 1.  **Trainer Details:**
 ![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/admin1.jpg)
@@ -169,7 +173,3 @@ The application follows a client-server architecture, with the frontend (HTML, C
 *   `admin_trainers.php`: Manages trainer details for admin (view, edit, delete).
 *   `export_excel.php`: Generates Excel reports.
 *   `export_pdf.php`: Generates PDF reports.
-
-## 8. License
-
-This project is released under the [MIT License](LICENSE). (If you have a LICENSE file, make sure it's in the root directory of your project).
