@@ -108,30 +108,35 @@ To set up and run the Trainer Timetable App locally, follow these steps:
     *   **Logout:** Click the "Logout" button to exit the admin dashboard.
 
 4.  **Screenshot:**
-   *   **Sign In And Sign up:**
-    *1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
-*1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
+   *   **Sign In And Sign Up:**
+1.  **Sign in:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/login1.jpg)
+2.  **Sign up:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/login2.jpg)
 
    *   **Trainer Dashboard:**
-   *1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
-*1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
-*1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
-*1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
+1.  **Trainer Profile:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/tariner1.jpg)
+2.  **Session Calendar:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/tariner2.jpg)
+3.  **Upcoming Sessions:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/tariner3.jpg)
+4.  **Session Status:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/tariner4.jpg)
    *   **Admin Dashboard:**
-   *1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
-*1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
-*1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
-*1.Home*
-![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
+1.  **Trainer Details:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/admin1.jpg)
+2.  **Add Session:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/admin2.jpg)
+3.  **Add Trainer:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/admin3.jpg)
+4.  **Stastics:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/admin4.jpg)
+   *   **Database:**
+1.  **member:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/data.jpg)
+2.  **trainer_utilization:**
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/data1.jpg)
 
 ## 7. API Endpoints / Architecture
 
