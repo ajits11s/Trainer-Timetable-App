@@ -4,40 +4,43 @@
 
 **Project Title:** Trainer Timetable App with Calendar View
 
-**Description:** The Trainer Timetable App is a web-based application designed to streamline the management of trainer schedules and sessions. It provides a comprehensive platform for both trainers and administrators to organize, track, and monitor training activities efficiently. The application features a calendar view for session visualization, detailed trainer profiles, and robust administrative tools for managing trainers and sessions.
+**Description:** This application provides a comprehensive solution for managing trainer schedules and sessions, featuring a calendar-based interface for easy visualization. It includes separate dashboards for trainers and administrators, allowing trainers to manage their profiles and view their upcoming sessions, while administrators can oversee all trainer details, add new sessions and trainers, and generate reports.
 
 ## 2. Team Details
 
-**Team Name:** [Your Team Name Here]
+**Team Name:** CodePair
 
 **Team Members:**
-*   Ajit Appaji Gawade - ajitgawade09987@gmail.com
-*   Supriya Raju More - supriyarajumore@gmail.com
+*   Ajit Gawade - ajitgawade09987@gmail.com
+*   Supriya More - supriyarajumore@gmail.com
 
 ## 3. Tech Stack
 
-*   **Languages:** PHP, HTML, CSS, JavaScript
+*   **Languages:**
+    *   PHP
+    *   HTML
+    *   CSS
+    *   JavaScript
 *   **Database:** MySQL
 *   **Server Environment:** Apache (via XAMPP)
-*   **Other Tools/Libraries:** [Mention any specific JavaScript libraries, CSS frameworks (e.g., Bootstrap), or other tools if used. If none, you can remove this line or state "None specific beyond core languages."]
+*   **Frameworks/Libraries:** (If any, e.g., jQuery, Bootstrap, specific PHP frameworks)
+    *   [List any specific frameworks or libraries used, e.g., Bootstrap for UI, jQuery for interactivity]
 
 ## 4. Project Description
 
-The Trainer Timetable App is built to simplify the complex task of managing trainer schedules and training sessions. It offers a dual-dashboard system, catering to the specific needs of trainers and administrators.
+The Trainer Timetable App is designed to streamline the management of trainer schedules and training sessions. It offers two distinct user interfaces: a Trainer Dashboard and an Admin Dashboard, each tailored to the specific needs of its users.
 
-**Key Features:**
+**Trainer Dashboard:**
+*   **Trainer Profile:** Displays detailed trainer information including contact details (email, phone), languages (e.g., C, C++, Python, Java, PHP, MySQL), certifications (e.g., Certified Web Stack Trainer), and availability (e.g., Monday - Friday).
+*   **Session Calendar:** Provides a visual representation of the trainer's sessions, showing session names, dates, locations, and times in a calendar format.
+*   **Upcoming Sessions:** Lists all future sessions assigned to the trainer, along with their respective dates and times.
+*   **Session Status:** Shows the completion status of sessions, indicating which sessions are completed and which are pending.
 
-*   **User Authentication:** Secure sign-up and sign-in processes for trainers and administrators.
-*   **Trainer Dashboard:**
-    *   **Trainer Profile:** Allows trainers to view and manage their contact information, languages, certifications, and availability.
-    *   **Session Calendar:** Provides a visual calendar displaying all scheduled sessions with details like name, date, location, and time.
-    *   **Upcoming Sessions:** Lists all future training sessions, including their dates and times.
-    *   **Session Status:** Tracks the completion status of sessions (completed/not completed).
-*   **Admin Dashboard:**
-    *   **Trainer Details:** Comprehensive view of all registered trainers, including their contact information, languages, certifications, and availability. Includes options to edit or delete trainer profiles.
-    *   **Add Session:** Functionality for administrators to create and schedule new training sessions.
-    *   **Add Trainer:** Allows administrators to register new trainers directly.
-    *   **Statistics:** Provides an overview of key metrics such as total trainers, total sessions, active trainers today, and inactive trainers.
+**Admin Dashboard:**
+*   **Trainer Details:** Displays a comprehensive list of all trainers, including their name, phone, languages, certifications, and actions (edit/delete). This section also allows for exporting trainer details to Excel and PDF formats.
+*   **Add Session:** Enables administrators to create and add new training sessions to the system.
+*   **Add Trainer:** Allows administrators to register new trainers into the system.
+*   **Statistics:** Provides an overview of key metrics, such as total trainers, total sessions, active trainers today, and inactive trainers.
 
 ## 5. Setup Instructions
 
@@ -53,49 +56,58 @@ To set up and run the Trainer Timetable App locally, follow these steps:
 3.  **Place Project Files:**
     *   Navigate to the `htdocs` directory within your XAMPP installation (e.g., `C:\xampp\htdocs` on Windows).
     *   Create a new folder named `trainer_timetable` (or your preferred project name) inside `htdocs`.
-    *   Copy all your project files (HTML, CSS, JavaScript, PHP, database scripts, etc.) into this `trainer_timetable` folder.
+    *   Copy all the project files into this newly created `trainer_timetable` folder.
 
-4.  **Database Setup:**
+4.  **Create Database:**
     *   Open your web browser and go to `http://localhost/phpmyadmin`.
-    *   Create a new database (e.g., `trainer_timetable_db`).
-    *   Import your database schema (SQL file) into this newly created database. You should have a `.sql` file in your project directory. If not, you'll need to manually create the tables and insert any initial data.
+    *   In phpMyAdmin, click on the "Databases" tab.
+    *   Enter a name for your database (e.g., `trainer_timetable_db`) and click "Create".
+    *   Import your database schema (SQL file) into the newly created database. (You will need to provide the SQL file for database creation).
+
+5.  **Configure Database Connection:**
+    *   Locate the database connection file in your project (e.g., `config.php` or `db_connection.php`).
+    *   Open this file and update the database credentials (database name, username, password) to match your MySQL setup (default XAMPP: username `root`, no password).
 
 ## 6. Usage Guide
 
 1.  **Access the Application:**
     *   Open your web browser.
     *   Type `http://localhost/trainer_timetable/login.html` (replace `trainer_timetable` with your actual project folder name if different) in the address bar and press Enter.
-    *   The login page will be displayed.
 
 2.  **Trainer Module:**
-    *   **Sign Up (First Time Trainer):**
-        *   Click on the "Sign Up" link.
-        *   Enter your email and password.
+    *   **Sign Up (First-time Trainer):**
+        *   On the login page, click the "Sign Up" link.
+        *   Enter your email address and a password.
         *   Click "Sign Up" to create your account. You will be redirected to the login page upon successful registration.
     *   **Sign In (Existing Trainer):**
-        *   Enter your registered email and password.
+        *   On the login page, enter your registered email and password.
         *   Click "Sign In".
-        *   You will be redirected to the Trainer Dashboard.
+        *   Upon successful login, you will be directed to the **Trainer Dashboard**.
     *   **Trainer Dashboard Sections:**
-        *   **Trainer Profile:** View and update your contact information (email, number), languages (e.g., C++, Python, Java, PHP, MySQL), certifications (e.g., Certified Web Stack Trainer), and availability (e.g., Monday - Friday).
-        *   **Session Calendar:** See your scheduled sessions displayed on a calendar, including session name, date, location, and time.
-        *   **Upcoming Sessions:** A list of your upcoming training sessions with their respective dates and times.
-        *   **Session Status:** Check the status of your sessions, indicating which are completed and which are not.
-    *   **Logout:** Click the "Logout" button to exit the trainer dashboard.
+        *   **Trainer Profile:** View and update your contact information, languages, certifications, and availability.
+        *   **Session Calendar:** See your scheduled sessions visually on a calendar.
+        *   **Upcoming Sessions:** Check details of your upcoming training sessions.
+        *   **Session Status:** Monitor the completion status of your past sessions.
+    *   **Logout:** Click the "Logout" button (usually found in the navigation or profile section) to exit the trainer dashboard.
 
 3.  **Admin Module:**
     *   **Admin Login:**
         *   On the login page, enter the administrator's email and password.
         *   Click "Sign In".
-        *   You will be redirected to the Admin Dashboard.
+        *   Upon successful login, you will be directed to the **Admin Dashboard**.
     *   **Admin Dashboard Sections:**
-        *   **Trainer Details:** View a table of all trainers, including their name, phone, languages, certifications, availability.
-            *   **Actions:** Use the "Edit" button to modify a trainer's details or the "Delete" button to remove a trainer from the system.
-        *   **Add Session:** A form to add new training sessions to the system.
-        *   **Add Trainer:** A form to register new trainers directly into the system.
-        *   **Statistics:** Displays key metrics such as the total number of trainers, total sessions, active trainers today, and inactive trainers.
+        *   **Trainer Details:**
+            *   View a table of all registered trainers with their details.
+            *   Use the "Edit" action to modify a trainer's information.
+            *   Use the "Delete" action to remove a trainer from the system.
+            *   Click "📊 Export to Excel" to download trainer data in Excel format.
+            *   Click "🧾 Export to PDF" to download trainer data in PDF format.
+        *   **Add Session:** Fill out the form to add new training sessions.
+        *   **Add Trainer:** Fill out the form to register new trainers.
+        *   **Statistics:** View real-time statistics on total trainers, total sessions, active trainers today, and inactive trainers.
+    *   **Logout:** Click the "Logout" button to exit the admin dashboard.
 
-*(Optional: Add screenshots or GIFs here to illustrate the usage flow.)*
+*(Include screenshots or GIFs here if possible to illustrate the UI and workflow)*
 
 ## 7. API Endpoints / Architecture
 
@@ -103,38 +115,32 @@ The application follows a client-server architecture, with the frontend (HTML, C
 
 **Key Modules:**
 
-*   **Frontend (Client-Side):**
-    *   `login.html`: User authentication interface.
-    *   `signup.html`: Trainer registration interface.
-    *   `trainer_dashboard.html`: Trainer's main interface.
-    *   `admin_dashboard.html`: Administrator's main interface.
-    *   CSS files for styling.
-    *   JavaScript files for client-side validation, dynamic content updates, and calendar interactions.
+*   **Authentication Module:** Handles user registration (for trainers) and login for both trainers and administrators.
+*   **Trainer Management Module:** Manages trainer profiles, including viewing, editing, and deleting trainer information (Admin side).
+*   **Session Management Module:** Allows for adding, viewing, and tracking the status of training sessions.
+*   **Reporting Module:** Generates Excel and PDF reports of trainer details.
 
-*   **Backend (Server-Side - PHP):**
-    *   `db_config.php` (or similar): Handles database connection and configuration.
-    *   `auth.php` (or similar): Manages user (trainer/admin) authentication (login, signup).
-    *   `trainer_api.php` (or similar): Handles requests related to trainer profiles, sessions, and status.
-    *   `admin_api.php` (or similar): Manages requests for trainer details (add, edit, delete), session management (add), and statistics.
+**Conceptual Data Flow:**
 
-**Example API Endpoints (Conceptual):**
+1.  **User Interaction:** User interacts with HTML forms and buttons in the browser.
+2.  **Frontend Logic (JavaScript):** Handles client-side validation and AJAX requests to the backend.
+3.  **Backend Processing (PHP):**
+    *   Receives requests from the frontend.
+    *   Processes business logic (e.g., authentication, data manipulation).
+    *   Interacts with the MySQL database.
+    *   Returns data or status messages to the frontend.
+4.  **Database (MySQL):** Stores all application data, including user credentials, trainer profiles, and session details.
 
-*   **`POST /api/signup`**: Trainer registration.
-*   **`POST /api/login`**: User login (trainer/admin).
-*   **`GET /api/trainer/profile`**: Retrieve trainer profile details.
-*   **`PUT /api/trainer/profile`**: Update trainer profile.
-*   **`GET /api/trainer/sessions/calendar`**: Fetch all sessions for calendar view.
-*   **`GET /api/trainer/sessions/upcoming`**: Retrieve upcoming sessions for a trainer.
-*   **`GET /api/trainer/sessions/status`**: Get session completion status.
-*   **`GET /api/admin/trainers`**: Retrieve all trainer details (for admin).
-*   **`POST /api/admin/trainer`**: Add a new trainer (for admin).
-*   **`PUT /api/admin/trainer/{id}`**: Edit trainer details (for admin).
-*   **`DELETE /api/admin/trainer/{id}`**: Delete a trainer (for admin).
-*   **`POST /api/admin/session`**: Add a new session (for admin).
-*   **`GET /api/admin/statistics`**: Get overall statistics (for admin).
+**Example (Conceptual) Endpoints:**
+
+*   `login.php`: Handles user authentication.
+*   `signup.php`: Handles new trainer registration.
+*   `trainer_profile.php`: Manages trainer profile data.
+*   `sessions.php`: Manages session data (add, view, update status).
+*   `admin_trainers.php`: Manages trainer details for admin (view, edit, delete).
+*   `export_excel.php`: Generates Excel reports.
+*   `export_pdf.php`: Generates PDF reports.
 
 ## 8. License
 
-This project is released under the [MIT License](LICENSE). You are free to use, modify, and distribute this software, provided that the original copyright and license notice are included in all copies or substantial portions of the software.
-
-*(If you are using a different license, replace "MIT License" and update the description accordingly. If you don't want to specify a license, you can remove this section.)*
+This project is released under the [MIT License](LICENSE). (If you have a LICENSE file, make sure it's in the root directory of your project).
