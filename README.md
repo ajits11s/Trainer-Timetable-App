@@ -100,14 +100,17 @@ To set up and run the Trainer Timetable App locally, follow these steps:
             *   View a table of all registered trainers with their details.
             *   Use the "Edit" action to modify a trainer's information.
             *   Use the "Delete" action to remove a trainer from the system.
-            *   Click "📊 Export to Excel" to download trainer data in Excel format.
-            *   Click "🧾 Export to PDF" to download trainer data in PDF format.
+            *   Click "Export to Excel" to download trainer data in Excel format.
+            *   Click "Export to PDF" to download trainer data in PDF format.
         *   **Add Session:** Fill out the form to add new training sessions.
         *   **Add Trainer:** Fill out the form to register new trainers.
         *   **Statistics:** View real-time statistics on total trainers, total sessions, active trainers today, and inactive trainers.
     *   **Logout:** Click the "Logout" button to exit the admin dashboard.
 
-*(Include screenshots or GIFs here if possible to illustrate the UI and workflow)*
+4.  **Screenshot:**
+   *   **Trainer Dashboard:**
+   *   **Admin Dashboard:**
+   
 
 ## 7. API Endpoints / Architecture
 
