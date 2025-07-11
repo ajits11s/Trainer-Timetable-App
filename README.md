@@ -116,7 +116,7 @@ To set up and run the Trainer Timetable App locally, follow these steps:
 
    *   **Trainer Dashboard:**
 1.  **Trainer Profile:**
-![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/tariner1.jpg)
+![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/02ed8f151097b4ec15fe9e6c6bda413b6a8cb27d/Screenshot/trainer1.jpg)
 2.  **Session Calendar:**
 ![image alt](https://github.com/ajits11s/Trainer-Timetable-App/blob/615c141773ac07046ca42e0402e992306752e311/Screenshot/tariner2.jpg)
 3.  **Upcoming Sessions:**
